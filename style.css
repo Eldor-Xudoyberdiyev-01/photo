@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1152px;
+    margin: auto;
+}
+header{
+    background: url("./img/phototime_01.png") no-repeat center center;
+    background-size: cover;
+}
+header nav ul{
+    width: 780px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+header nav ul .photo{
+    margin-top: 40px;
+}
+header nav ul li{
+    margin-top: 70px;
+}
+header .home{
+    text-align: center;
+    margin-top: 247px;
+}
+header .icon .fa-brands{
+    color: #ffffff;
+    font-size: 22px;
+}
+header .icon .fa-flickr{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 26px;
+}
+header .icon{
+    text-align: center;
+    /* margin-bottom: 26px; */
+}
+header ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'GothamRounded Bold';
+    
+}
+header .home{
+    padding-bottom: 270px;
+}
+header .home h6{
+    font-size: 36px;
+    font-family: 'GothamRounded Bold';
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+.home form form:focus{
+    box-shadow: none;
+}
+.home form input{
+    width: 166px;
+    height: 49px;
+    background: #16a085;
+    margin-top: 26px;
+    font-size: 12px;
+    font-family: 'GothamRounded Bold';
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+
+}
+header .home p{
+    font-size: 14px;
+    color: #b3a7aa;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    word-spacing: 6px;
+    font-family: 'GothamRounded Medium';
+   
+}
+.second .text h4{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 110px;
+    font-family: 'GothamRounded Bold';
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #16a085;
+    width: 410px;
+}
+.second .text{
+    display: flex;
+    
+}
+.second{
+    background: #f5f6f7;
+}
+.second .text img{
+    margin-top: 92px;
+   
+}
+.second .text p{
+    font-size: 12px;
+    color: #a9aaaa;
+    font-family: 'GothamRounded Bold';
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    width: 500px;
+}
+.second form input{
+    width: 191px;
+    height: 51px;
+    background: #16a085;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'GothamRounded Bold';
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 47px;
+}
+.third .text h4{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 110px;
+    font-family: 'GothamRounded Bold';
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: #16a085;
+    width: 410px;
+}
+.third .text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 145px;
+    
+}
+.third .text img{
+    margin-top: 92px;
+   
+}
+.third .text p{
+    font-size: 12px;
+    color: #a9aaaa;
+    font-family: 'GothamRounded Bold';
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    width: 500px;
+}
+.third form input{
+    width: 191px;
+    height: 51px;
+    background: #16a085;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'GothamRounded Bold';
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 47px;
+}
+.fourth .item{
+    
+    display: flex;
+    
+    
+}
+.fourth{
+    background: #f5f6f7;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.fourth .item .text p{
+    font-size: 10px;
+    margin-left: 10px;
+    font-family: 'GothamRounded Medium';
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    color: #505051;
+    width: 180px;
+
+}
+.fourth .item .text h3{
+    font-size: 16px;
+    font-family: 'GothamRounded Bold';
+    text-transform: uppercase;
+    color: #373737;
+    word-spacing: 5px;
+    letter-spacing:4px;
+    margin: 30px 0 25px 0;
+
+}
+.fourth .item .text{
+    margin-top: 45px;
+    text-align: center;
+    
+}
+.fourth .item .img{
+    margin-left: 100px;
+    margin-right: 25px;
+}
+.fifthy{
+    background: url("./img/phototime10_02.png")no-repeat center center ;
+    background-size: cover;
+    text-align: center;
+    padding-top: 352px;
+    padding-bottom:324px;
+}
+/* .fifthy form{
+    position: relative;
+}
+.fifthy form .fa-solid{
+    position: absolute;
+    left: 810px;
+    font-size: 25px;
+    top: 60px;
+} */
+.fifthy h4{
+    font-size: 24px;
+    font-family: 'GothamRounded Bold';
+    word-spacing: 2px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.fifthy form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifthy form input{
+    width: 280px;
+    height: 60px;
+    margin-top: 35px;
+    border-radius: 0;
+    border: none;
+    font-size: 16px;
+    font-family: 'GothamRounded Medium';
+}
+.fifthy form .btn{
+    background: #16a085;
+    cursor: pointer;
+    width: 63px;
+    height: 60px;
+    border-radius: 0;
+}
+section{
+    background: #f5f6f7;
+    padding-bottom: 116px;
+}
+section .text p{
+    width: 890px;
+    text-transform: uppercase ;
+    font-size: 12px;
+    font-family: 'GothamRounded Medium';
+    color: #79797a;
+    white-space: 3px;
+    letter-spacing: 2px;
+    margin: auto;
+}
+section .text h4{
+    font-size: 20px;
+    font-family: 'GothamRounded Bold';
+    color: #373737;
+    padding-top: 92px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    letter-spacing: 2px;
+}
+section .text{
+    text-align: center;
+}
+section form input{
+    width: 280px;
+    height: 60px;
+    margin-top: 35px;
+    border-radius: 0;
+    border: none;
+    font-size: 16px;
+    font-family: 'GothamRounded Medium';
+}
+section form .btn{
+    background: #16a085;
+    cursor: pointer;
+    margin-top: 48px;
+    width: 63px;
+    height: 60px;
+    border-radius: 0;
+}
+section button .box{
+    background: #16a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 52px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius:3px ;
+}
+section button .box .fa-brands{
+    font-size: 30px;
+    color: #ffffff;
+}
+section button span{
+    background: #1abc9c;
+    width: 240px;
+    height: 52px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'GothamRounded Bold';
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius:3px ;
+}
+section .btn{
+    display: flex;
+    margin-left: 260px;
+    
+    
+}
+section .btn .item{
+    margin-left: 25px;
+}
+section button{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+footer .text{
+    padding: 46px 0 38px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+footer .text ul{
+    width: 300px;
+}
+
+footer p{
+    margin-top: 26px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #373737;
+    font-family: 'GothamRounded Bold';
+}
+footer .text ul{
+    display: flex;
+    align-items: center;
+}
+footer .text ul li a{
+    font-size: 14px;
+    color: #373737;
+    font-family: 'GothamRounded Bold';
+    text-transform: uppercase;
+}
+footer .text ul .box{
+    height: 13px;
+    width: 2px;
+    margin-right: 9px;
+    margin-left: 9px;
+    background: #16a085;
+}
+
